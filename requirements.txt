@@ -1,7 +1,6 @@
 # Core LangChain packages
 langchain>=0.3.0
 langchain-community>=0.3.0
-langchain-openai>=0.3.0
 langchain-perplexity>=0.1.2
 
 # Streamlit UI
@@ -22,3 +21,6 @@ tiktoken>=0.7.0
 
 # OpenAI SDK
 openai>=1.30.0
+langchain-huggingface>=0.0.3
+sentence-transformers>=2.2.2
+torch>=2.0.0
