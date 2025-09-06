@@ -17,7 +17,7 @@ from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 # -----------------------------
 load_dotenv()  # expects OPENAI_API_KEY in .env
 
-st.title("RockyBot: News Research Tool 📈")
+st.title("NewsQATool: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
 
 urls = []
