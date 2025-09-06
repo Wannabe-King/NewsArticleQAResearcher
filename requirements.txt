@@ -1,26 +1,8 @@
-# Core LangChain packages
-langchain>=0.3.0
-langchain-community>=0.3.0
-langchain-perplexity>=0.1.2
-
-# Streamlit UI
-streamlit>=1.39.0
-
-# Env variables
-python-dotenv>=1.0.1
-
-# Data loading + parsing
-unstructured>=0.15.0
-libmagic>=1.0
-python-magic>=0.4.27
-python-magic-bin>=0.4.14
-
-# Embeddings + vector store
-faiss-cpu>=1.8.0
-tiktoken>=0.7.0
-
-# OpenAI SDK
-openai>=1.30.0
-langchain-huggingface>=0.0.3
-sentence-transformers>=2.2.2
-torch>=2.0.0
+streamlit==1.36.0
+langchain==0.2.16
+langchain-community==0.2.12
+langchain-openai==0.1.22
+openai==1.42.0
+faiss-cpu==1.12.0
+python-dotenv==1.0.1
+unstructured==0.18.14
